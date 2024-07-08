@@ -4,6 +4,17 @@ h1 {
     border: 0.5px solid red;
 }
 /* Colored all content of div element. */
+
 div {
     color: green;
+}
+
+/* Styling only descendent elements*/
+.des p {
+    color: blue;
+}
+
+/* Styling only child elements */
+#child > p {
+    color: tomato;
 }
