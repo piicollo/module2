@@ -58,7 +58,115 @@
           </div>
           <p>This is a last paragraph</p>
       </div>
-      
-  
+      <h1>General Sibling Selector(~): </h1>
+      <div id="sibling">
+        <p>This is a 1paragraph.</p>
+        <p>This is a 2paragraph.</p>
+        <div>
+            <p>This is a 3paragraph.</p>
+        </div>
+        <p>This is a 4paragraph.</p>
+      </div>
+      <p>This is a 5paragraph.</p>
+      <p>This is a 6paragraph.</p>
+
+      <br />
+      <hr />
+      <br />
+      <!-- Attribute Selector [attribute] -->
+      <h1>Attribute Selector [attribute]</h1>
+      <div>
+        <!-- Type 1 -->
+         <!-- [Attribute name] -->
+        <h6>Google</h6>
+        <button>
+            <a href="https://www.google.com/">Google</a>
+        </button>
+        <br />
+        <p>Attribute selector syntax example: </p>
+        <code>
+            [href] {
+                color: white;
+            }
+        </code>
+        
+      </div>
+      <br />
+      <hr />
+      <br />
+      <!-- [Attribute-name=""Value] -->
+      <table border="1" width="1px">  
+        <thead>
+            <tr>
+                <th>Month</th>
+                <th>Saving</th>
+            </tr>
+            
+        </thead>
+        <tbody>
+            <tr>
+                <td>JAN</td>
+                <td>1200</td>
+
+            </tr>
+            <tr>
+                <td>FEB</td>
+                <td>2000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>3200</td>
+            </tr>
+        </tfoot>
+       
+      </table>
+      <br />
+      <br />
+  <div>
+    <!-- Element[attribute-name] -->
+    <a href="google.com"> Google </a>
+  </div>
+<br />
+<hr />
+<br />
+<h1>Pseudo-Element Selector</h1>
+<br />
+<p>syntax</p>
+<code>
+    p:: first-line {
+        color:red;
+    }
+</code>
+<div id="sudo">
+    <p>
+        This is a 1paragraph. <br />
+        This is a 2paragraph.
+    </p>
+</div>
+<p class="sec">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta reprehenderit ab iste blanditiis odit, dolor voluptatibus quisquam omnis quo ipsum amet, beatae veritatis dolorem excepturi quasi delectus, sunt a vero.
+Dolor reiciendis amet alias aliquam nulla nam temporibus, accusantium vero velit optio asperiores, voluptas accusamus illo odit repudiandae iure qui debitis mollitia reprehenderit dignissimos cupiditate cum, id molestiae itaque! Dicta!
+Suscipit odit aliquam reprehenderit! Unde voluptate harum incidunt, quam praesentium nobis possimus! Perferendis atque quas nobis assumenda voluptates aperiam repudiandae minus sed. Quis deserunt necessitatibus maxime eveniet ducimus unde illo.
+Perspiciatis consequatur, mollitia aut iusto ipsum quis obcaecati quam ab inventore iure eaque excepturi aliquam doloremque ullam iste molestias sapiente earum nobis ut nam voluptates reiciendis! Odit omnis vitae aut?
+Architecto doloremque impedit commodi facilis, nulla est. Aliquid adipisci incidunt doloremque omnis placeat facilis earum, iste reprehenderit! Modi odio, repellendus neque nostrum error tempore, recusandae ipsum sapiente minima, laborum in.</p>
+<br />
+<hr />
+<br />
+<div>
+    <h1>Pseudo-class Selector</h1>
+    <!-- Navigation bar -->
+    <ul>
+        <li><a href="/">HOME</a></li>
+        <li><a href="/">BLOG</a></li>
+        <li><a href="/">ABOUT US</a></li>
+        <li><a href="/">SERVICES</a></li>
+        <li><a href="/">CONTACT US</a></li>
+        
+    </ul>
+    <br />
+    <br />
+    <br />
+</div>
 </body>
 </html>
