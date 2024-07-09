@@ -72,3 +72,12 @@ li a:hover {
     font-size: 30px;
     color: red;
 }
+/* Coloring odd paragraph in hello class elements */
+.hello p:nth-child(odd) {
+    color: rgb(160, 160, 0);
+}
+/* Coloring even paragraph in world id elements */
+#world p:nth-child(even) {
+    background-color: black;
+    color: White;
+}
